@@ -1,15 +1,17 @@
 <template>
-  <hello-world />
+  <div home>
+    <Quandradinhos />
+  </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import Quandradinhos from "../components/Quandradinhos";
 
-  export default {
-    name: 'Home',
+export default {
+  name: "Home",
 
-    components: {
-      HelloWorld,
-    },
-  }
+  components: {
+    Quandradinhos,
+  },
+};
 </script>

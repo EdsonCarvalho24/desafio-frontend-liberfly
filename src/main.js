@@ -4,6 +4,11 @@ import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
 
+import VueMaterial from 'vue-material';
+import 'vue-material/dist/vue-material.min.css';
+
+Vue.use(VueMaterial);
+
 Vue.config.productionTip = false
 
 new Vue({
